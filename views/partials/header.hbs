@@ -1,8 +1,20 @@
 <header style="background-color: darkgreen; color: white; padding: .5em 1em; margin: 0;">
     <h1>{{pageTitle}}</h1>
-    <ul style="list-style:none;">
+    <style>
+        .nav li {
+            display: inline-block;
+        }
+
+        .nav li a {
+            padding: .5em 1em;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <ul class="nav" style="list-style:none;">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="/projects">Projects</a></li>
     </ul>
 
 </header>
